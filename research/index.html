@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/font.css">
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <script src="../mainscript.js" defer></script>
+    <title>ay.lab - research</title>
+</head>
+<body>
+    <div class="root-container">
+        <div class="nav-container">
+            <h1 class="logo-text">ay.lab</h1>
+            <div class="nav">
+                <a id="home" class="nav-link" onclick="showPages('home-container', 'home')" href="../">Home</a>
+                <a id="research" class="nav-link active" onclick="showPages('research-container', 'research')" href="../research/">Research/Projects</a>
+                <a id="blog" class="nav-link" onclick="showPages('blog-container', 'blog')" href="../blog/">Blog</a>
+                <a id="cv" class="nav-link" onclick="showPages('cv-container', 'cv')" href="../cv/">CV</a>
+            </div>
+        </div>
+
+
+        <div class="page" id="projects">
+    <div class="contaner">
+        <div class="research-header">
+            <h1 class="head">Projects</h1>
+            <p class="descript1 description">Code, experiments, and open-source contributions</p>
+        </div>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <!-- <div class="project-header">🔧</div>   -->
+                <div class="project-content">
+                    <h3>Robotic Arm Controller</h3>
+                    <p>Open-source control system for 6-DOF robotic arms with inverse kinematics solver and trajectory planning capabilities.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NumPy</span>
+                        <span class="tech-tag">Arduino</span>
+                        <span class="tech-tag">ROS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    </div>
+    
+</body>
+</html>

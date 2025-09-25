@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/styles/font.css">
+    <link rel="stylesheet" href="../assets/styles/style.css">
+    <script src="../mainscript.js" defer></script>
+
+    <title>ay.lab - blog</title>
+
+</head>
+
+<style>
+    .blog-posts {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-post {
+    background: rgba(20, 20, 20, 0.8);
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    transition: all 0.3s;
+}
+
+.blog-post:hover {
+    border-color: #ff6b6b;
+}
+
+.blog-post h3, .blog-post a {
+    color: #ff6b6b;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.blog-post a{
+    text-decoration: none;
+}
+
+.blog-post a:hover{
+    cursor: url("../assets/icons/pointer1.png"),default;
+}
+
+.blog-meta {
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.blog-tags {
+    display: flex;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.blog-tag {
+    background: rgba(255, 107, 107, 0.2);
+    color: #ff6b6b;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.blog-post p{
+    color: #ccc;
+}
+
+/*  */
+
+.blog-post-content {
+    display: none;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-header {
+    text-align: center;
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #333;
+}
+
+.post-header h1 {
+    font-size: 36px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.post-meta {
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.post-meta span {
+    margin: 0 5px;
+}
+
+.post-body {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.post-body h2 {
+    color: #4ecdc4;
+    margin: 40px 0 20px 0;
+    font-weight: 400;
+}
+
+.post-body p {
+    margin-bottom: 20px;
+}
+
+.post-footer {
+    margin-top: 50px;
+    padding-top: 30px;
+    border-top: 1px solid #333;
+}
+
+.back-link {
+    color: #ff6b6b;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.back-link:hover {
+    color: #4ecdc4;
+}
+
+.blog-post a:hover{
+    border-bottom: 1px solid #ff6b6b;
+}
+</style>
+<body>
+    <div class="root-container">
+        <div class="nav-container">
+            <h1 class="logo-text">ay.lab</h1>
+            <div class="nav">
+                <a id="home" class="nav-link" onclick="showPages('home-container', 'home')" href="../">Home</a>
+                <a id="research" class="nav-link" onclick="showPages('research-container', 'research')" href="../research/">Research/Projects</a>
+                <a id="blog" class="nav-link active" onclick="showPages('blog-container', 'blog')" href=".. /blog/">Blog</a>
+                <a id="cv" class="nav-link" onclick="showPages('cv-container', 'cv')" href="../cv/">CV</a>
+            </div>
+        </div>
+
+            <div class="page" id="blog">
+    <div class="continer">
+        <div class="research-header">
+            <h1>Thoughts & Insights</h1>
+            <p>Reflections on technology, research, and life</p>
+        </div>
+        
+        <div class="blog-posts">
+            <article class="blog-post" >
+                <h3><a href="./blog-ethics.html">The Ethics of Autonomous Systems</a></h3>
+                <div class="blog-meta">December 15, 2024 • 8 min read</div>
+                <p>As we advance toward increasingly autonomous AI systems, we must grapple with fundamental questions about responsibility, transparency, and human agency. This post explores the ethical frameworks...</p>
+                <!-- <div class="blog-tags">
+                    <span class="blog-tag">AI Ethics</span>
+                    <span class="blog-tag">Philosophy</span>
+                    <span class="blog-tag">Robotics</span>
+                </div> -->
+            </article>
+                </div>
+            </div>
+        </div>
+
+
+       
+    </div>
+
+
+
+    
+</body>
+<script>
+//     function showBlogPost(postId) {
+//     showPage('blog-post');
+//     // You can load different content based on postId
+// }
+
+
+</script>
+</html>
